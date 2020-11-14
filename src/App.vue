@@ -81,7 +81,7 @@ export default {
 :root {
   --bg-color: #2c3e50;
   --container-bg-color: #1d2935;
-  --highlighted-tab-color: #47cf73;
+  --highlighted-tab-color: #42b983;
   --container-heading-text-color: #ffffff;
 }
 
@@ -93,18 +93,19 @@ export default {
 
 /* width */
 .main_container *::-webkit-scrollbar {
-  width: 7px;
+  width: 7px !important;
+  height: 7px !important;
 }
 
 /* Track */
 .main_container * ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
   border-radius: 10px;
 }
 
 /* Handle */
 .main_container * ::-webkit-scrollbar-thumb {
-  background: var(--highlighted-tab-color);
+  background: var(--highlighted-tab-color) !important;
   border-radius: 5px;
 }
 

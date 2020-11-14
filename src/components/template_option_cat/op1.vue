@@ -101,7 +101,7 @@ export default {
 
 <style scoped>
 .bg-color-new {
-  background: #47cf73 !important;
+  background: #42b983 !important;
   border: none !important;
   color: white !important;
 }

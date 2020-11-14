@@ -3,7 +3,7 @@
     <table
       class="table table-light "
       v-if="get_template_datas != null"
-      style="overflow-y:scroll; overflow-x: hidden; "
+      style="overflow-y:scroll; overflow-x: scroll; max-height:650px;"
     >
       <thead class="thead-light">
         <tr>

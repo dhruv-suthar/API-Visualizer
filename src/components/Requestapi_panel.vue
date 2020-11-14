@@ -39,6 +39,7 @@
                 type="submit"
                 class="form-control btn btn-md btn-primary"
                 v-bind:disabled="isSended"
+                style="background:#42B983; border:#42B983;"
               >
                 {{ send_btn_txt }}
               </button>
@@ -293,6 +294,8 @@ export default {
           }
         }
       }
+      this.isSended = false;
+      this.send_btn_txt = "Send";
     },
 
     add_header_input() {
@@ -382,15 +385,15 @@ export default {
       this.body_input_list.splice(i, 1);
     }
   },
-  computed: mapGetters(["getApiData", "getResponseheaders"]),
+  computed: mapGetters(["getApiData", "getStatusCode", "getResponseheaders"]),
   created() {},
   watch: {
-    getApiData: {
+    getStatusCode: {
       deep: true,
       handler(value) {
         if (value != null) {
-          this.isSended = false;
-          this.send_btn_txt = "Send";
+          //   this.isSended = false;
+          //   this.send_btn_txt = "Send";
         }
       }
     }
@@ -419,7 +422,7 @@ export default {
   border-left: none !important;
   border-top: none !important;
   border-right: none !important ;
-  border-bottom-color: #47cf73 !important;
+  border-bottom-color: #42b983 !important;
   font-weight: 510;
 }
 @media only screen and (max-width: 425px) {

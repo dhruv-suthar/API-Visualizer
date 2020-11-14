@@ -69,7 +69,7 @@
               <div
                 class="selected_data_for_visualization"
                 v-if="datafields_for_visualization != null"
-                style="overflow-y:scroll; overflow-x: hidden; height:450px;"
+                style="overflow-y:scroll; overflow-x: scroll; height:450px;"
               >
                 <ul
                   class="list-unstyled  p-0 m-0"

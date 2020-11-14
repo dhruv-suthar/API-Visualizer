@@ -3,7 +3,7 @@
     <h6>Template config + Data Integration</h6>
     <form
       @submit.prevent=""
-      style="overflow-y:scroll; overflow-x: hidden; height:650px;"
+      style="overflow-y:scroll; overflow-x: hidden; max-height:650px;"
     >
       <div class="form-group ">
         <label for="template_type">Template</label>
