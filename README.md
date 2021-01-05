@@ -4,6 +4,9 @@ The Objective is not only fetch API's but it also Visualize it's in various temp
 
 **Live Here** - https://api-visualizer.herokuapp.com/
 
+**Note** - if unable to fetch api data from local url endpoints or avoid cors error then use the `Allow CORS: Access-Control-Allow-Origin` extension to your browser.
+            `Allow CORS: Access-Control-Allow-Origin` - https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
+
 
 **Methods**
 
